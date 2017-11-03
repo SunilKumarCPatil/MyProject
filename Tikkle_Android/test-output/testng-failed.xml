@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Class1Suite]">
+  <listeners>
+    <listener class-name="com.kirwa.nxgreport.listners.NXGTestListner"/>
+    <listener class-name="com.tikkle.Library.MyListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.tikkle.scripts.VerifyingChatModule">
+        <methods>
+          <include name="NewChat"/>
+          <include name="end"/>
+          <include name="runAppiumServer"/>
+          <include name="initialSetUp"/>
+        </methods>
+      </class> <!-- com.tikkle.scripts.VerifyingChatModule -->
+      <class name="com.tikkle.scripts.VerifyingOnBoardScreens">
+        <methods>
+          <include name="VerifyOnboardScreen"/>
+          <include name="end"/>
+          <include name="runAppiumServer"/>
+          <include name="initialSetUp"/>
+        </methods>
+      </class> <!-- com.tikkle.scripts.VerifyingOnBoardScreens -->
+      <class name="com.tikkle.scripts.VerifyingBasicInfo">
+        <methods>
+          <include name="end"/>
+          <include name="runAppiumServer"/>
+          <include name="initialSetUp"/>
+          <include name="verifyBasicInfoScreen1"/>
+        </methods>
+      </class> <!-- com.tikkle.scripts.VerifyingBasicInfo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Class1Suite] -->

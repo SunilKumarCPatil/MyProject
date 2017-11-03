@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Class1Suite">
+	<listeners>
+		<listener class-name="com.kirwa.nxgreport.listners.NXGTestListner"></listener>
+		<listener class-name="com.tikkle.Library.MyListener"></listener>
+
+	</listeners>
+	<test name="Test">
+		<classes>
+
+			<class name="com.tikkle.scripts.VerifyingOnBoardScreens"></class>
+			<class name="com.tikkle.scripts.VerifyLogin"></class>
+			<class name="com.tikkle.scripts.VerifyingLogout"></class>
+			<class name="com.tikkle.scripts.VerifyLogin"></class>
+			<class name="com.tikkle.scripts.VerifyingBasicInfo"></class>
+			<class name="com.tikkle.scripts.VerifyingChatModule"></class>
+			
+
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

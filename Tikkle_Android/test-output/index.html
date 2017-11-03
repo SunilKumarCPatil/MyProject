@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Class1Suite">
+              <span class="suite-name border-failed">Class1Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Class1Suite">
+                    <span>D:\Sunil\Tikkle Automation Project Related\Android\Workspace\Tikkle_Android\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Class1Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Class1Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Class1Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Class1Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Class1Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Class1Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 3 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Class1Suite" class="hide-methods failed suite-Class1Suite"> (hide)</a> <!-- hide-methods failed suite-Class1Suite -->
+                      <a href="#" panel-name="suite-Class1Suite" class="show-methods failed suite-Class1Suite"> (show)</a> <!-- show-methods failed suite-Class1Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Class1Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Class1Suite" title="com.tikkle.scripts.VerifyingChatModule" hash-for-method="NewChat">NewChat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Class1Suite" title="com.tikkle.scripts.VerifyingOnBoardScreens" hash-for-method="VerifyOnboardScreen">VerifyOnboardScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Class1Suite" title="com.tikkle.scripts.VerifyingBasicInfo" hash-for-method="verifyBasicInfoScreen1">verifyBasicInfoScreen1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Class1Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Class1Suite" class="hide-methods passed suite-Class1Suite"> (hide)</a> <!-- hide-methods passed suite-Class1Suite -->
+                      <a href="#" panel-name="suite-Class1Suite" class="show-methods passed suite-Class1Suite"> (show)</a> <!-- show-methods passed suite-Class1Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Class1Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Class1Suite" title="com.tikkle.scripts.VerifyingChatModule" hash-for-method="TestChatModule">TestChatModule</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Class1Suite" title="com.tikkle.scripts.VerifyLogin" hash-for-method="VerifyLoginScreen">VerifyLoginScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Class1Suite" title="com.tikkle.scripts.VerifyingLogout" hash-for-method="VerifySucessfullLogout">VerifySucessfullLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Class1Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Class1Suite" class="panel Class1Suite">
+          <div class="suite-Class1Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.tikkle.scripts.VerifyingOnBoardScreens</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyOnboardScreen">
+                  </a> <!-- VerifyOnboardScreen -->
+                  <span class="method-name">VerifyOnboardScreen</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Stay Updated! The news feed style.
+Start discussions.
+Then and There.] but found [Stay updated, the news 
+ feed style. Start discussions,
+ then and there!]
+	at com.tikkle.scripts.VerifyingOnBoardScreens.VerifyOnboardScreen(VerifyingOnBoardScreens.java:33)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Class1Suite-class-failed -->
+          <div class="suite-Class1Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.tikkle.scripts.VerifyingChatModule</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="NewChat">
+                  </a> <!-- NewChat -->
+                  <span class="method-name">NewChat</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.50 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;TYSS-MF-059&apos;, ip: &apos;10.10.11.180&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.tikkle.myaccount.qa, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=420015db4fbb235b, platform=LINUX, appActivity=com.tickle.myaccount.activities.SplashActivity, desired={appPackage=com.tikkle.myaccount.qa, appActivity=com.tickle.myaccount.activities.SplashActivity, platformVersion=6.1, automationName=Appium, platformName=Android, deviceName=420015db4fbb235b}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 8705f984-1989-4db4-85c9-cd8c3b31319c
+*** Element info: {Using=id, value=com.tikkle.myaccount.qa:id/ib_search_button}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:64)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at com.tikkle.scripts.VerifyingChatModule.NewChat(VerifyingChatModule.java:41)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verifying User can send a text message to Other User)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Class1Suite-class-failed -->
+          <div class="suite-Class1Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.tikkle.scripts.VerifyingBasicInfo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBasicInfoScreen1">
+                  </a> <!-- verifyBasicInfoScreen1 -->
+                  <span class="method-name">verifyBasicInfoScreen1</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [Basic In] but found [Basic Info]
+	at com.tikkle.Library.GenericLib.VerifyUsingSoftAssert(GenericLib.java:121)
+	at com.tikkle.scripts.VerifyingBasicInfo.verifyBasicInfoScreen1(VerifyingBasicInfo.java:30)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Check for Basic info Screen)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Class1Suite-class-failed -->
+          <div class="suite-Class1Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tikkle.scripts.VerifyingChatModule</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestChatModule">
+                  </a> <!-- TestChatModule -->
+                  <span class="method-name">TestChatModule</span>
+                  <em>
+(Verifying the Chat Module)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Class1Suite-class-passed -->
+          <div class="suite-Class1Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tikkle.scripts.VerifyingLogout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySucessfullLogout">
+                  </a> <!-- VerifySucessfullLogout -->
+                  <span class="method-name">VerifySucessfullLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Class1Suite-class-passed -->
+          <div class="suite-Class1Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tikkle.scripts.VerifyLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginScreen">
+                  </a> <!-- VerifyLoginScreen -->
+                  <span class="method-name">VerifyLoginScreen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Class1Suite-class-passed -->
+        </div> <!-- panel Class1Suite -->
+        <div panel-name="test-xml-Class1Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Sunil\Tikkle Automation Project Related\Android\Workspace\Tikkle_Android\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Class1Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.kirwa.nxgreport.listners.NXGTestListner&quot;/&gt;
+    &lt;listener class-name=&quot;com.tikkle.Library.MyListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.tikkle.scripts.VerifyingOnBoardScreens&quot;/&gt;
+      &lt;class name=&quot;com.tikkle.scripts.VerifyLogin&quot;/&gt;
+      &lt;class name=&quot;com.tikkle.scripts.VerifyingLogout&quot;/&gt;
+      &lt;class name=&quot;com.tikkle.scripts.VerifyLogin&quot;/&gt;
+      &lt;class name=&quot;com.tikkle.scripts.VerifyingBasicInfo&quot;/&gt;
+      &lt;class name=&quot;com.tikkle.scripts.VerifyingChatModule&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Class1Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Class1Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Class1Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Class1Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Class1Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Class1Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Class1Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Class1Suite');
+function tableData_Class1Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'NewChat')
+data.setCell(0, 2, 'com.tikkle.scripts.VerifyingChatModule')
+data.setCell(0, 3, 40232);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerifyLoginScreen')
+data.setCell(1, 2, 'com.tikkle.scripts.VerifyLogin')
+data.setCell(1, 3, 22390);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'VerifySucessfullLogout')
+data.setCell(2, 2, 'com.tikkle.scripts.VerifyingLogout')
+data.setCell(2, 3, 14783);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyBasicInfoScreen1')
+data.setCell(3, 2, 'com.tikkle.scripts.VerifyingBasicInfo')
+data.setCell(3, 3, 9169);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TestChatModule')
+data.setCell(4, 2, 'com.tikkle.scripts.VerifyingChatModule')
+data.setCell(4, 3, 8264);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyOnboardScreen')
+data.setCell(5, 2, 'com.tikkle.scripts.VerifyingOnBoardScreens')
+data.setCell(5, 3, 1749);
+window.suiteTableData['Class1Suite']= { tableData: data, tableDiv: 'times-div-Class1Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Class1Suite">
+              </div> <!-- times-div-Class1Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Class1Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Class1Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">VerifySucessfullLogout</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP21</span>
+                <span class="reporter-method-output">STEP22</span>
+                <span class="reporter-method-output">STEP23</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestChatModule</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP13</span>
+                <span class="reporter-method-output">STEP14</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">VerifyLoginScreen</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP4</span>
+                <span class="reporter-method-output">STEP5</span>
+                <span class="reporter-method-output">STEP6</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyBasicInfoScreen1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP8</span>
+                <span class="reporter-method-output">STEP9</span>
+                <span class="reporter-method-output">STEP10</span>
+                <span class="reporter-method-output">STEP11</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">VerifyOnboardScreen</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP2</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">NewChat</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP16</span>
+                <span class="reporter-method-output">STEP17</span>
+                <span class="reporter-method-output">STEP18</span>
+                <span class="reporter-method-output">STEP19</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Class1Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.tikkle.scripts.VerifyingChatModule</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">runAppiumServer</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.tikkle.scripts.VerifyingLogout</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">runAppiumServer</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.tikkle.scripts.VerifyLogin</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">runAppiumServer</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.tikkle.scripts.VerifyingBasicInfo</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">runAppiumServer</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Class1Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tikkle.scripts.VerifyingOnBoardScreens</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">runAppiumServer</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetUp</span>
+                <span class="method-start">28355 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyOnboardScreen</span>
+                <span class="method-start">40181 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">41974 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tikkle.scripts.VerifyLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetUp</span>
+                <span class="method-start">44092 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginScreen</span>
+                <span class="method-start">54166 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">76559 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tikkle.scripts.VerifyingBasicInfo</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetUp</span>
+                <span class="method-start">78872 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyBasicInfoScreen1</span>
+                <span class="method-start">89197 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">98372 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tikkle.scripts.VerifyingChatModule</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetUp</span>
+                <span class="method-start">100479 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestChatModule</span>
+                <span class="method-start">110883 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">119149 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetUp</span>
+                <span class="method-start">121263 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">NewChat</span>
+                <span class="method-start">131187 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">171432 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tikkle.scripts.VerifyingLogout</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetUp</span>
+                <span class="method-start">173498 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifySucessfullLogout</span>
+                <span class="method-start">183828 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">198612 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

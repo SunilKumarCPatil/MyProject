@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="4" total="10" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[STEP1]]>
+    </line>
+    <line>
+      <![CDATA[STEP2]]>
+    </line>
+    <line>
+      <![CDATA[STEP3]]>
+    </line>
+    <line>
+      <![CDATA[STEP4]]>
+    </line>
+    <line>
+      <![CDATA[STEP5]]>
+    </line>
+    <line>
+      <![CDATA[STEP6]]>
+    </line>
+    <line>
+      <![CDATA[STEP7]]>
+    </line>
+    <line>
+      <![CDATA[STEP8]]>
+    </line>
+    <line>
+      <![CDATA[STEP9]]>
+    </line>
+    <line>
+      <![CDATA[STEP10]]>
+    </line>
+    <line>
+      <![CDATA[STEP11]]>
+    </line>
+    <line>
+      <![CDATA[STEP12]]>
+    </line>
+    <line>
+      <![CDATA[STEP13]]>
+    </line>
+    <line>
+      <![CDATA[STEP14]]>
+    </line>
+    <line>
+      <![CDATA[STEP15]]>
+    </line>
+    <line>
+      <![CDATA[STEP16]]>
+    </line>
+    <line>
+      <![CDATA[STEP17]]>
+    </line>
+    <line>
+      <![CDATA[STEP18]]>
+    </line>
+    <line>
+      <![CDATA[STEP19]]>
+    </line>
+    <line>
+      <![CDATA[STEP20]]>
+    </line>
+    <line>
+      <![CDATA[STEP21]]>
+    </line>
+    <line>
+      <![CDATA[STEP22]]>
+    </line>
+    <line>
+      <![CDATA[STEP23]]>
+    </line>
+  </reporter-output>
+  <suite name="Class1Suite" duration-ms="172480" started-at="2017-10-16T06:44:04Z" finished-at="2017-10-16T06:46:56Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="172480" started-at="2017-10-16T06:44:04Z" finished-at="2017-10-16T06:46:56Z">
+      <class name="com.tikkle.scripts.VerifyingOnBoardScreens">
+        <test-method status="PASS" signature="runAppiumServer()[pri:0, instance:com.tikkle.scripts.VerifyingOnBoardScreens@e25b2fe]" name="runAppiumServer" is-config="true" duration-ms="28298" started-at="2017-10-16T12:13:36Z" finished-at="2017-10-16T12:14:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runAppiumServer -->
+        <test-method status="PASS" signature="initialSetUp()[pri:0, instance:com.tikkle.scripts.VerifyingOnBoardScreens@e25b2fe]" name="initialSetUp" is-config="true" duration-ms="11826" started-at="2017-10-16T12:14:04Z" finished-at="2017-10-16T12:14:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method status="FAIL" signature="VerifyOnboardScreen()[pri:1, instance:com.tikkle.scripts.VerifyingOnBoardScreens@e25b2fe]" name="VerifyOnboardScreen" duration-ms="1749" started-at="2017-10-16T12:14:16Z" finished-at="2017-10-16T12:14:18Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Stay Updated! The news feed style.
+Start discussions.
+Then and There.] but found [Stay updated, the news 
+ feed style. Start discussions,
+ then and there!]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Stay Updated! The news feed style.
+Start discussions.
+Then and There.] but found [Stay updated, the news 
+ feed style. Start discussions,
+ then and there!]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.tikkle.scripts.VerifyingOnBoardScreens.VerifyOnboardScreen(VerifyingOnBoardScreens.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[STEP2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyOnboardScreen -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.tikkle.scripts.VerifyingOnBoardScreens@e25b2fe]" name="end" is-config="true" duration-ms="2113" started-at="2017-10-16T12:14:18Z" finished-at="2017-10-16T12:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.tikkle.scripts.VerifyingOnBoardScreens -->
+      <class name="com.tikkle.scripts.VerifyingChatModule">
+        <test-method status="PASS" signature="initialSetUp()[pri:0, instance:com.tikkle.scripts.VerifyingChatModule@6eebc39e]" name="initialSetUp" is-config="true" duration-ms="10404" started-at="2017-10-16T12:15:16Z" finished-at="2017-10-16T12:15:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP12]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method status="PASS" signature="TestChatModule()[pri:3, instance:com.tikkle.scripts.VerifyingChatModule@6eebc39e]" name="TestChatModule" duration-ms="8264" started-at="2017-10-16T12:15:26Z" description="Verifying the Chat Module" finished-at="2017-10-16T12:15:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP13]]>
+            </line>
+            <line>
+              <![CDATA[STEP14]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestChatModule -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.tikkle.scripts.VerifyingChatModule@6eebc39e]" name="end" is-config="true" duration-ms="2113" started-at="2017-10-16T12:15:35Z" finished-at="2017-10-16T12:15:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="initialSetUp()[pri:0, instance:com.tikkle.scripts.VerifyingChatModule@6eebc39e]" name="initialSetUp" is-config="true" duration-ms="9924" started-at="2017-10-16T12:15:37Z" finished-at="2017-10-16T12:15:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP15]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method status="FAIL" signature="NewChat()[pri:4, instance:com.tikkle.scripts.VerifyingChatModule@6eebc39e]" name="NewChat" duration-ms="40232" started-at="2017-10-16T12:15:47Z" description="Verifying User can send a text message to Other User" finished-at="2017-10-16T12:16:27Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.50 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'TYSS-MF-059', ip: '10.10.11.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.tikkle.myaccount.qa, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=420015db4fbb235b, platform=LINUX, appActivity=com.tickle.myaccount.activities.SplashActivity, desired={appPackage=com.tikkle.myaccount.qa, appActivity=com.tickle.myaccount.activities.SplashActivity, platformVersion=6.1, automationName=Appium, platformName=Android, deviceName=420015db4fbb235b}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 8705f984-1989-4db4-85c9-cd8c3b31319c
+*** Element info: {Using=id, value=com.tikkle.myaccount.qa:id/ib_search_button}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.50 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'TYSS-MF-059', ip: '10.10.11.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.tikkle.myaccount.qa, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=420015db4fbb235b, platform=LINUX, appActivity=com.tickle.myaccount.activities.SplashActivity, desired={appPackage=com.tikkle.myaccount.qa, appActivity=com.tickle.myaccount.activities.SplashActivity, platformVersion=6.1, automationName=Appium, platformName=Android, deviceName=420015db4fbb235b}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 8705f984-1989-4db4-85c9-cd8c3b31319c
+*** Element info: {Using=id, value=com.tikkle.myaccount.qa:id/ib_search_button}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:64)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at com.tikkle.scripts.VerifyingChatModule.NewChat(VerifyingChatModule.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[STEP16]]>
+            </line>
+            <line>
+              <![CDATA[STEP17]]>
+            </line>
+            <line>
+              <![CDATA[STEP18]]>
+            </line>
+            <line>
+              <![CDATA[STEP19]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NewChat -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.tikkle.scripts.VerifyingChatModule@6eebc39e]" name="end" is-config="true" duration-ms="2066" started-at="2017-10-16T12:16:27Z" finished-at="2017-10-16T12:16:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.tikkle.scripts.VerifyingChatModule -->
+      <class name="com.tikkle.scripts.VerifyLogin">
+        <test-method status="PASS" signature="initialSetUp()[pri:0, instance:com.tikkle.scripts.VerifyLogin@754ba872]" name="initialSetUp" is-config="true" duration-ms="10074" started-at="2017-10-16T12:14:20Z" finished-at="2017-10-16T12:14:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method status="PASS" signature="VerifyLoginScreen()[pri:2, instance:com.tikkle.scripts.VerifyLogin@754ba872]" name="VerifyLoginScreen" duration-ms="22390" started-at="2017-10-16T12:14:30Z" finished-at="2017-10-16T12:14:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP4]]>
+            </line>
+            <line>
+              <![CDATA[STEP5]]>
+            </line>
+            <line>
+              <![CDATA[STEP6]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginScreen -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.tikkle.scripts.VerifyLogin@754ba872]" name="end" is-config="true" duration-ms="2311" started-at="2017-10-16T12:14:52Z" finished-at="2017-10-16T12:14:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.tikkle.scripts.VerifyLogin -->
+      <class name="com.tikkle.scripts.VerifyingLogout">
+        <test-method status="PASS" signature="initialSetUp()[pri:0, instance:com.tikkle.scripts.VerifyingLogout@146ba0ac]" name="initialSetUp" is-config="true" duration-ms="10330" started-at="2017-10-16T12:16:29Z" finished-at="2017-10-16T12:16:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP20]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method status="PASS" signature="VerifySucessfullLogout()[pri:5, instance:com.tikkle.scripts.VerifyingLogout@146ba0ac]" name="VerifySucessfullLogout" duration-ms="14783" started-at="2017-10-16T12:16:39Z" finished-at="2017-10-16T12:16:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP21]]>
+            </line>
+            <line>
+              <![CDATA[STEP22]]>
+            </line>
+            <line>
+              <![CDATA[STEP23]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifySucessfullLogout -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.tikkle.scripts.VerifyingLogout@146ba0ac]" name="end" is-config="true" duration-ms="2165" started-at="2017-10-16T12:16:54Z" finished-at="2017-10-16T12:16:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.tikkle.scripts.VerifyingLogout -->
+      <class name="com.tikkle.scripts.VerifyingBasicInfo">
+        <test-method status="PASS" signature="initialSetUp()[pri:0, instance:com.tikkle.scripts.VerifyingBasicInfo@4dfa3a9d]" name="initialSetUp" is-config="true" duration-ms="10325" started-at="2017-10-16T12:14:54Z" finished-at="2017-10-16T12:15:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP7]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method status="FAIL" signature="verifyBasicInfoScreen1()[pri:2, instance:com.tikkle.scripts.VerifyingBasicInfo@4dfa3a9d]" name="verifyBasicInfoScreen1" duration-ms="9169" started-at="2017-10-16T12:15:05Z" description="Check for Basic info Screen" finished-at="2017-10-16T12:15:14Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+	expected [Basic In] but found [Basic Info]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+	expected [Basic In] but found [Basic Info]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.tikkle.Library.GenericLib.VerifyUsingSoftAssert(GenericLib.java:121)
+	at com.tikkle.scripts.VerifyingBasicInfo.verifyBasicInfoScreen1(VerifyingBasicInfo.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[STEP8]]>
+            </line>
+            <line>
+              <![CDATA[STEP9]]>
+            </line>
+            <line>
+              <![CDATA[STEP10]]>
+            </line>
+            <line>
+              <![CDATA[STEP11]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyBasicInfoScreen1 -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.tikkle.scripts.VerifyingBasicInfo@4dfa3a9d]" name="end" is-config="true" duration-ms="2105" started-at="2017-10-16T12:15:14Z" finished-at="2017-10-16T12:15:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.tikkle.scripts.VerifyingBasicInfo -->
+    </test> <!-- Test -->
+  </suite> <!-- Class1Suite -->
+</testng-results>
